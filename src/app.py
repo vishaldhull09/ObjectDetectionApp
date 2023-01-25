@@ -65,7 +65,7 @@ detections = process_image(image)
 image, labels = annotate_image(image, detections, confidence_threshold)
 
 st.image(
-    image, caption=f"Processed image", use_column_width=True,
+    image, caption=f"Processed image you can see", use_column_width=True,
 )
 
 st.write(labels)
